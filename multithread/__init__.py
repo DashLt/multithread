@@ -5,13 +5,14 @@ import aiofiles
 from pathlib import Path
 
 name = "multithread"
+__version__ = "1.0.1"
 
 class Downloader:
     """
     An optionally asynchronous multi-threaded downloader class using aiohttp
 
     Attributes:
-    
+
         - url (str): The URL to download
         - file (str or path-like object): The filename to write the download to.
         - threads (int): The number of threads to use to download

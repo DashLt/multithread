@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="multithread",
-    version="1.0",
+    version="1.0.1",
     author="DashLt",
     description="An optionally asynchronous multithreaded downloader for python",
     long_description=long_description,
@@ -21,7 +21,7 @@ setuptools.setup(
         "Topic :: Internet :: WWW/HTTP"
     ],
     python_requires=">3.5",
-    install_requires=['aiohttp', 'aiofile'],
+    install_requires=['aiohttp', 'aiofiles'],
     extras_require={
         "progress": "tqdm"
     }
