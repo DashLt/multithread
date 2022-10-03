@@ -1,3 +1,5 @@
+# I made this years ago and you probably shouldn't use it. Keeping up for posterity.
+
 # multithread
 
 Multithread is an optionally asynchronous Python library for downloading files using several threads.
